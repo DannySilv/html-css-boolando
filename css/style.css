@@ -15,3 +15,84 @@ html {
 }
 
 /* COMMON */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 3em auto;
+    border: 1px solid red;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 0;
+    border: 2px solid purple;
+}
+
+.bg-red {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 0%;;
+    font-size: 0.6em;
+    padding: 0.15em 0.25em;
+}
+
+.bg-green {
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-size: 0.6em;
+    padding: 0.15em 0.25em;
+}
+
+.brand {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 0.3em;
+    font-size: 0.6em;
+    font-weight: 100;
+    color: #2c2c2c;
+    border: 2px solid green;
+}
+
+.product-name {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 0.9em;
+    font-size: 0.9em;
+    border: 2px solid green;
+}
+
+.price {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 0.9em;
+    font-size: 0.7em;
+    color: orangered;
+    border: 2px solid green;
+}
+
+/* PRODUCT */
+.product {
+    display: inline-block;
+    position: relative;
+    width: calc((100%/3) - 8px);
+    margin: 0 4px;
+    border: 2px solid blue;
+    vertical-align: top;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product .heart {
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    background-color: white;
+    padding: 0.05em 0.5em;
+}
