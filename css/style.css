@@ -98,3 +98,18 @@ html {
     background-color: white;
     padding: 0.05em 0.5em;
 }
+
+/* HOVER */
+.product:hover .img-a{
+    display: none;
+}
+
+.product .img-b {
+    display: none;
+    width: 100%;
+}
+
+.product:hover .img-b {
+    display: inline-block;
+    width: 100%;
+}
