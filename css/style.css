@@ -1,0 +1,17 @@
+/* RESET */
+@font-face {
+    font-family: Poppins;
+    src: url(../css/Poppins.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Poppins;
+}
+
+/* COMMON */
