@@ -18,7 +18,7 @@ html {
 .container {
     width: 80%;
     max-width: 1200px;
-    margin: 3em auto;
+    margin: 2em auto;
     border: 1px solid red;
 }
 
@@ -73,6 +73,11 @@ html {
     font-size: 0.7em;
     color: orangered;
     border: 2px solid green;
+}
+
+#old-price {
+    text-decoration: line-through;
+    color: #2c2c2c;
 }
 
 /* PRODUCT */
