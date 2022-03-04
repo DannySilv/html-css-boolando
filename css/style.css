@@ -100,7 +100,7 @@ html {
 }
 
 /* HOVER */
-.product:hover .img-a{
+.product:hover .img-a {
     display: none;
 }
 
@@ -112,4 +112,22 @@ html {
 .product:hover .img-b {
     display: inline-block;
     width: 100%;
+}
+
+.product:hover .heart {
+    display: none;
+}
+
+.product .heart-red {
+    display: none;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    background-color: white;
+    color: red;
+    padding: 0.05em 0.5em;
+}
+
+.product:hover .heart-red {
+    display: inline-block;
 }
