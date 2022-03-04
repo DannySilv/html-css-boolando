@@ -27,12 +27,11 @@ html {
 }
 
 .bg-container {
-    display: inline-block;
     position: absolute;
-    top: 84%;
+    bottom: 5%;
     left:0%;
-    width: 100%;
-    margin: 0 auto;
+    margin: 0;
+    border: 2px solid blue;
 }
 
 .bg-red {
@@ -81,17 +80,29 @@ html {
 /* PRODUCT */
 .product {
     display: inline-block;
-    position: relative;
     width: calc((100%/3) - 8px);
     margin: 0 4px;
     vertical-align: top;
+    border: 2px solid red;
 }
 
-.product img {
+.product-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.product-img img {
     width: 100%;
 }
 
-.product .heart {
+.product-text {
+    width: 100%;
+    margin:0;
+    border: 2px solid green;
+}
+.product-img .heart {
     position: absolute;
     top: 5%;
     right: 0%;
@@ -100,25 +111,25 @@ html {
 }
 
 /* HOVER */
-.product:hover .img-a {
+.product-img:hover .img-a {
     display: none;
 }
 
-.product .img-b {
+.product-img .img-b {
     display: none;
     width: 100%;
 }
 
-.product:hover .img-b {
+.product-img:hover .img-b {
     display: inline-block;
     width: 100%;
 }
 
-.product:hover .heart {
+.product-img:hover .heart {
     display: none;
 }
 
-.product .heart-red {
+.product-img .heart-red {
     display: none;
     position: absolute;
     top: 5%;
@@ -128,6 +139,6 @@ html {
     padding: 0.05em 0.5em;
 }
 
-.product:hover .heart-red {
+.product-img:hover .heart-red {
     display: inline-block;
 }
